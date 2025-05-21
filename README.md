@@ -1,1 +1,1 @@
-# Un-rinc-n-acogedor-donde-cada-taza-cuenta-una-historia.
+# Un-rincon-acogedor-donde-cada-taza-cuenta-una-historia.
