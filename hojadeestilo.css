@@ -1,83 +1,86 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f8f0;
-  color: #333;
+  font-family: Arial, sans-serif;
+  background-color: #fdf6f0;
+  color: #4b2e2e;
   margin: 0;
   padding: 0;
 }
 
 #encabezado {
-  background-color: #8bc34a;
-  color: white;
-  padding: 20px 0;
+  background-color: #8b5e3c;
+  color: #fff;
+  padding: 20px;
   text-align: center;
 }
 
 #encabezado h1 {
   margin: 0;
-  font-size: 2.5em;
+  font-size: 36px;
 }
 
-
 .navbar {
-  list-style-type: none;
+  list-style: none;
+  margin: 10px 0 0 0;
   padding: 0;
-  margin: 15px 0 0 0;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  background-color: #a77d57;
 }
 
 .navbar li {
-  display: inline;
+  margin: 0 15px;
 }
 
 .navbar a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
   font-weight: bold;
-  padding: 10px 15px;
-  transition: background 0.3s;
-  border-radius: 5px;
+  padding: 10px;
+  display: block;
 }
 
 .navbar a:hover {
-  background-color: #689f38;
+  background-color: #d8a679;
+  border-radius: 5px;
 }
-
 
 #pagina {
-  padding: 30px;
-  max-width: 900px;
+  padding: 20px;
+  max-width: 800px;
   margin: auto;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 #pagina h2 {
-  color: #4caf50;
+  font-size: 28px;
+  border-bottom: 2px solid #a77d57;
+  padding-bottom: 10px;
 }
 
-
-a {
-  color: #388e3c;
-  text-decoration: none;
+#pagina p {
+  line-height: 1.6;
 }
 
-a:hover {
+#pagina a {
+  color: #8b5e3c;
   text-decoration: underline;
 }
 
+#pagina a:hover {
+  color: #5c4033;
+}
 
-img {
-  border-radius: 10px;
+#pagina img {
   margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
 form {
   margin-top: 20px;
+  background-color: #fff8f0;
+  padding: 20px;
+  border: 1px solid #d8a679;
+  border-radius: 8px;
 }
 
 form p {
@@ -93,44 +96,43 @@ label {
 input[type="text"],
 textarea {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 textarea {
-  resize: vertical;
   height: 100px;
+  resize: vertical;
 }
 
 .button button {
-  background-color: #4caf50;
+  background-color: #a77d57;
   color: white;
-  border: none;
   padding: 10px 20px;
+  border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 16px;
 }
 
 .button button:hover {
-  background-color: #388e3c;
+  background-color: #8b5e3c;
 }
 
 #pie {
   text-align: center;
-  background-color: #c8e6c9;
+  background-color: #8b5e3c;
+  color: white;
   padding: 15px;
   margin-top: 40px;
-  font-size: 0.9em;
-  color: #2e7d32;
+  font-size: 14px;
 }
 
 iframe {
   width: 100%;
   height: 300px;
-  border: none;
+  border: 1px solid #ccc;
   margin-top: 20px;
-  border-radius: 10px;
+  border-radius: 6px;
 }
