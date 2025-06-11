@@ -1,6 +1,6 @@
 window.onload = function() {
 var reply = prompt("Bienvenid@ ¿cuál es tu nombre?", "");
-alert ( "Es un gusto tenerte aquí" + reply + "!");
+alert ( "Es un gusto tenerte aquí" +  reply + "!");
 }
 
 let miBoton = document.querySelector('button');
