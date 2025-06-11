@@ -1,25 +1,92 @@
-html{
-margin:0;
-padding:0;
-box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-background-color: #6495ED;
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf4;
+  color: #4a2d1f;
+  padding: 20px;
 }
-div.ficha{
-width: 200px:
-heigth: 120px;
-float: left;
-margin:15px;
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #6f4e37;
+  margin-bottom: 20px;
 }
-ul#menu{
-margin: 1px;
-padding: 1px;
-list-style-type:none
+
+h2, h3 {
+  color: #8b5a3c;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
-#Menu li{
-background color: #A9A9A9;
-border: lightblue 3 px solid;
-margin: 1px;
-float: left;
+
+#Menu {
+  list-style: none;
+  background-color: #6f4e37;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#Menu li a {
+  text-decoration: none;
+  color: #fbeedb;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#Menu li a:hover {
+  background-color: #8b5a3c;
+  color: #fff;
+}
+
+.ficha {
+  width: 280px;
+  float: left;
+  margin: 15px;
+  background-color: #fdf6f0;
+  border: 1px solid #e2c5ac;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.ficha:hover {
+  transform: scale(1.03);
+}
+
+.ficha img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.ficha p {
+  font-size: 0.95em;
+  text-align: justify;
+  color: #5a4032;
+}
+
+div:last-of-type {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+  font-size: 0.9em;
+  color: #7c5a45;
+  border-top: 1px solid #e6d3c2;
+}
+
+p[style*="clear"] {
+  clear: both;
 }
