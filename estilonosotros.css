@@ -1,40 +1,120 @@
-*{
-    padding:2px;
-    box-sizing: border-box;
-   }
-#encabezado{
-     background-color: #FFE4C4;
-     text-align: center;
-     font-size: 35px;
-     color: #333333;
-     height: auto;
- }
-.navbar{
-        margin: 0 px;
-        padding: 0 px; 
-        text-align: left;
-        font-size: 18 px; 
-        list-style-type: none; 
-        height: auto;
-        background-color: #D9B99B;
-        }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf8f3;
+  color: #3e2c23;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+#encabezado {
+  background-color: #6f4e37;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#encabezado h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fcebd4;
+  font-weight: bold;
+  padding: 8px 15px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+}
+
+.navbar li a:hover {
+  background-color: #fcebd4;
+  color: #6f4e37;
+}
+
+#pagina {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 #columna_principal {
-     float: left;
-     width: 70%;
-     height: 700px;
-     background-color:#D9B99B;
+  flex: 3;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
+#columna_principal h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #6f4e37;
+}
+
+#columna_principal h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #9b6a4d;
+}
+
+#columna_principal p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+video {
+  display: block;
+  margin: 15px auto;
+  border: 2px solid #6f4e37;
+  border-radius: 10px;
+}
+
 #columna_publicidad {
-    float: left;
-    width: 30%;
-    height: 700px;
-    background-color: #FFE4C4;
+  flex: 1;
+  padding: 20px;
+  background-color: #fcebd4;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
+
+#columna_publicidad h4 {
+  color: #6f4e37;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+#columna_publicidad p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+#columna_publicidad img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 #pie {
-     clear: both;
-     display: flex;
-     background-color: #FFE4C4;
-     height: 80px;
-     text-align: center;
-     color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #6f4e37;
+  padding: 10px;
+  border-top: 1px solid #ccc;
 }
